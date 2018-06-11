@@ -1,0 +1,43 @@
+{
+  "name": "timer-chain",
+  "version": "1.0.0",
+  "description": "Chain timers",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ebam"
+  },
+  "keywords": [
+    "timer",
+    "series",
+    "chain",
+    "timing",
+    "clock",
+    "time"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io/)",
+  "license": "MIT",
+  "ebam": {
+    "input": "src/index.js",
+    "transforms": {
+      "dangerousForOf": false,
+      "dangerousTaggedTemplateString": false
+    },
+    "test": {
+      "dest": "test/code.js",
+      "src": "test/src.js"
+    },
+    "name": "timer-chain",
+    "external": [
+      "more-events"
+    ]
+  },
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js",
+  "devDependencies": {
+    "horologe": "^2.3.1"
+  },
+  "dependencies": {
+    "more-events": "^2.0.0"
+  }
+}
