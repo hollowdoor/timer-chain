@@ -39,5 +39,16 @@
   },
   "dependencies": {
     "more-events": "^2.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/timer-chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/timer-chain/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/timer-chain#readme"
 }
